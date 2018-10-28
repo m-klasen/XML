@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!DOCTYPE adressbuch SYSTEM "adrbuch.dtd">
+<adressbuch>
+<adresse>
+	<firma>
+		<firmenname>Uni Bonn</firmenname>
+		<abteilung>InformatikIII</abteilung>
+	</firma>
+	<strasse>Römerstraße164</strasse>
+	<plz>53117</plz>
+	<ort>Bonn</ort>
+</adresse>
+
+<adresse>
+	<person titel="Herr">
+		<vorname>Manfred</vorname>
+		<nachname>Mustermann</nachname>
+	</person>
+	<strasse>AmFriedhof11a</strasse>
+	<plz>12345</plz>
+	<ort>Irgendwo</ort>
+</adresse>
+
+<adresse land="uk">
+	<person titel="Family">
+		<nachname>Anyone</nachname>
+	</person>
+	<strasse>47EdenStreet</strasse>
+	<ort>Cambridge</ort>
+	<postcode>CB11JR</postcode>
+</adresse>
+<adresse land="us">
+	<firma>
+		<firmenname>OldWhiskeyBrewery</firmenname>
+	</firma>
+	<strasse>8OakAvenue</strasse>
+	<ort>OldTown</ort>
+	<state>PA</state>
+	<zip>95819</zip>
+</adresse>
+</adressbuch>

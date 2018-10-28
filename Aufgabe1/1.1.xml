@@ -1,0 +1,43 @@
+<!-- Mein zweiter Versuch, XML zu schreiben :-) -->
+<?xml version="1.1" encoding="UTF-8"?>
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+  <head id="e1">
+    <title>My First Document</title>
+  </head>
+  <body id="e1">
+    <p>Moved to <a href="http://example.org/">example.org</a>.</p>
+    <p lang="de"/>
+      Gr&uuml;ndlich pr&uuml;fen!.
+      Der Tabulator &#9; ist sehr hilfreich.
+    </p>
+    <foo>Another English sentence.</foo>
+    <table align="left" align="top">
+      <tr>
+        <td align=center>
+          1
+        </tr>
+      </td>
+    </table>
+  </body>
+  <data xmlns="http://example.org/">
+    Using <strong>strong</strong> and <html:em>em</html:em> elements
+    & (and) similar elements. More special elements: <1a>one</1a>, ...
+    <function prototype="<f>int</f>"/>
+  </data>
+</html>
+<appendix>
+  <p>Hier steht der Anhang</p>
+</appendix>
+
+<!--
+1. Kommentar in Zeile flasch, xml declaration nur in ersten zeile.
+8. <p .. /> falsch wenn später </p>	 
+9. &uuml ist html declaration, xml äquivalent ist &#220
+12. Doppelte Align zuweisung nicht möglich
+14. align zuweisung hatte keine anführungstriche 
+16/17. </tr> </td> vertauscht.
+22. &(and) falsch(wäre Javascript, &amp; richtige xml terminologie.
+22. <1a> falsch
+23. "<" nicht erlaubt?
+26. appendix muss vor </html>
+-->

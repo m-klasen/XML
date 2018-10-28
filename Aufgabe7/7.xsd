@@ -1,0 +1,18 @@
+<xsd:schema>
+	<xsd:element name="p"type="type1"/>
+	<xsd:element name="bs"type="type2"/>
+
+	<xsd:complexType name="type1">
+		<xsd:sequence>
+			<xsd:element name="a"type="xsd:string"/>
+			<xsd:element ref="bs"/>
+			<xsd:element name="c"type="xsd:string"minOccurs="0"/>
+		</xsd:sequence>
+	</xsd:complexType>
+	<xsd:complexType name="type2">
+		<xsd:sequence>
+			<xsd:element name="a"type="xsd:int"/>
+			<xsd:element name="b"type="xsd:boolean"maxOccurs="4"/>
+		</xsd:sequence>
+	</xsd:complexType>
+</xsd:schema>

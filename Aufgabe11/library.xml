@@ -1,0 +1,123 @@
+<?xml version="1.1" encoding="UTF-8"?>
+
+<library xmlns:xsi='http://www.w3.org/2001/XMLSchema-instance'
+	 xsi:noNamespaceSchemaLocation='library.xsd'>
+
+  <book>
+    <author-ref>J.K.Rowling</author-ref>
+    <title>Harry Potter und der Stein der Weisen</title>
+    <language>de</language>
+    <year>1998</year>
+  </book>
+
+  <book>
+    <author-ref>J.K.Rowling</author-ref>
+    <title>Harry Potter und die Kammer des Schreckens</title>
+    <language>de</language>
+    <year>1999</year>
+  </book>
+
+  <book>
+    <author-ref>T.Pratchett</author-ref>
+    <title>The Colour of Magic</title>
+    <year>1983</year>
+  </book>
+
+  <book>
+    <author-ref>T.Pratchett</author-ref>
+    <author-ref>N.Gaiman</author-ref>
+    <title>Good Omens: The Nice and Accurate Prophecies...</title>
+    <language>en</language>
+  </book>
+
+  <book>
+    <author-ref>P. Thiel</author-ref>
+    <title>Zero to One</title>
+    <language>en</language>
+    <year>2014</year>
+  </book>
+
+  <book>
+    <author-ref>M. Tegmark</author-ref>
+    <title>Life 3.0</title>
+    <language>en</language>
+  </book>
+
+  <book>
+    <author-ref>S. Finlay</author-ref>
+    <title>AI and Machine Learning for Business</title>
+    <language>en</language>
+  </book>
+
+  <book>
+    <author-ref>Jordan B. Peterson</author-ref>
+    <title>12 Rules for Life: An Antidote to Chaos</title>
+    <language>en</language>
+  </book>
+
+  <book>
+    <author-ref>Mark Manson</author-ref>
+    <title>The Subtle Art of Not Giving a F*ck: A…</title>
+    <language>en</language>
+  </book>
+
+  <book>
+    <author-ref>Hans Rosling</author-ref>
+    <title>Factfulness: Ten Reasons We're Wrong About…</title>
+    <language>en</language>
+  </book>
+
+  <author id="J.K.Rowling">
+    <last-name>Rowling</last-name>
+    <first-name>Joanne K.</first-name>
+  </author>
+
+  <author id="N.Gaiman">
+    <last-name>Gaiman</last-name>
+    <first-name>Neil</first-name>
+  </author>
+
+  <author id="T.Pratchett">
+    <last-name>Pratchett</last-name>
+    <first-name>Terry</first-name>
+  </author>
+
+  <author id="S. Finlay">
+    <last-name>Finlay</last-name>
+    <first-name>Steven</first-name>
+  </author>
+
+  <author id="P. Thiel">
+    <last-name>Thiel</last-name>
+    <first-name>Peter</first-name>
+  </author>
+
+  <author id="M. Tegmark">
+    <last-name>Tegmark</last-name>
+    <first-name>Max</first-name>
+  </author>
+
+  <author id="Jordan B. Peterson">
+    <last-name>Jordan B.</last-name>
+    <first-name>Peterson</first-name>
+  </author>
+
+  <author id="Hans Rosling">
+    <last-name>Hans</last-name>
+    <first-name>Rosling</first-name>
+  </author>
+
+  <author id="Mark Manson">
+    <last-name>Mark</last-name>
+    <first-name>Manson</first-name>
+  </author>
+
+  
+
+
+
+
+
+
+
+</library>

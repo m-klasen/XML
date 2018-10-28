@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+	<xsd:element name="library">
+		<xsd:complexType>
+			<xsd:sequence>
+				<xsd:element name="book" maxOccurs="unbounded">
+						<xsd:complexType>
+							<xsd:sequence>
+								<xsd:element name="author-ref" type="xsd:string" maxOccurs="unbounded"/>
+								<xsd:element name="title" type="xsd:string" maxOccurs="1"/>
+								<xsd:element name="language" type="xsd:string" minOccurs="0"/>
+								<xsd:element name="year" type="xsd:gYear" minOccurs="0"/> 
+							</xsd:sequence>
+						</xsd:complexType>
+					<xsd:unique name="uniquebook">
+						<xsd:selector xpath="./autor-ref"/>
+						<xsd:field xpath="."/>
+					</xsd:unique>
+				</xsd:element>
+				<xsd:element name="author" maxOccurs="unbounded">
+					<xsd:complexType>
+						<xsd:sequence>
+							<xsd:element name="last-name" type="xsd:string" maxOccurs="unbounded" />
+							<xsd:element name="first-name" type="xsd:string" maxOccurs="unbounded"/>
+						</xsd:sequence>
+						<xsd:attribute name="id" type="xsd:string" use="required"/>
+					</xsd:complexType>
+				</xsd:element>
+			</xsd:sequence>
+		</xsd:complexType>
+		<xsd:keyref name="authorreference" refer="authorRef">
+			<xsd:selector xpath="./book/author-ref"/>
+			<xsd:field xpath="."/>
+		</xsd:keyref>
+		<xsd:key name="authorRef">
+			<xsd:selector xpath="./author"/>
+			<xsd:field xpath="@id"/>
+		</xsd:key>
+	</xsd:element>
+</xsd:schema>

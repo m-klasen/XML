@@ -1,0 +1,23 @@
+1                                                                                                                                   
+<!ELEMENT book ( div * | chapter *) >
+<!ELEMENT div ( chapter +) >
+<!ELEMENT chapter ( section | para )+ >
+<!ELEMENT section ( para +) >      
+<!ELEMENT para (# PCDATA | olist | em | kw )* >
+<!ELEMENT olist ( item +) >
+<!ELEMENT item (# PCDATA | kw )* >
+<!ELEMENT em (# PCDATA | kw )* >
+<!ELEMENT kw (# PCDATA ) >
+
+<! ATTLIST 	book 	xml:lang 	NMTOKEN # IMPLIED >
+<! ATTLIST 	div 	xml:lang	NMTOKEN # IMPLIED
+					id 			ID 		# IMPLIED >
+
+<! ATTLIST 	chapter xml:lang 	NMTOKEN # IMPLIED
+					id 			ID 		# IMPLIED >
+
+<! ATTLIST 	section xml:lang 	NMTOKEN # IMPLIED
+					id 			ID 		# IMPLIED >
+
+<! ATTLIST 	para	xml:lang 	NMTOKEN # IMPLIED
+					id 			ID 		# IMPLIED > 

@@ -1,0 +1,13 @@
+<?xml version="1.1" encoding="UTF-8"?>
+
+<p xmlns:xsi='http://www.w3.org/2001/XMLSchema-instance' xsi:noNamespaceSchemaLocation='7.xsd'>
+	<a>1</a>
+	<bs>
+		<a>1</a>
+		<b>3</b>
+		<b>3</b>
+		<b>5</b>
+		<b>6</b>
+	</bs>
+	<c>2</c>
+</p>

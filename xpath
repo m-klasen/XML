@@ -1,0 +1,69 @@
+
+
+	. 				- Current Node
+
+	..				- Select parent node
+
+	/				- select root node
+
+	nodename 		- all nodes with the name
+
+	//nodename		- all nodes in tree with name
+
+	@				- select attributes
+
+	/name[1]		- select first nodename element child
+
+	/name[last()]	- select last name element child
+
+	/name[position()]- select name element which is at a certain position
+
+	/name[@attr]	- selects child node with certain attribute
+
+	/name[@attr=xyz]- selects child node with certain attribute value
+
+	*				- any element node
+
+	@*				- any node with an attribute
+
+	node()			- node of any kind
+
+	/name/*			- selects all child elements of name 
+
+	//*				- select all elements in the xml
+
+	//name[@*]		- select all elements with attributes
+
+	//name | //xyz	- select all name AND xyz elements
+
+	13-AXES:
+
+	ancestor::			- all previous nodes
+
+	ancestor-or-self::	- all previous nodes and self
+
+	attribute::			- all attributes of current node
+
+	child::				- all children of current node
+
+	descendant::		- all descendants of current node
+
+	descendant-or-self::- all descendants of current node and self
+
+	following::			- everything after the closing tags of current node
+
+	following-sibling::	- all siblings of current node (to the right)
+
+	namespace::			- all namespaces of current node
+
+	parent::			- parent of current node
+
+	preceding:: 		- all preceding nodes of current one
+
+	preceding-sibling::	- all siblings preceding the current node
+
+	self:: 				- current node
+
+	EXAMPLES:
+
+	child::*/child::name

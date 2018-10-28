@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<e1 xmlns="http://X.de"
+	xmlns:n1="http://Y.de"
+	xmlns:n2="http://Z.de">
+	<n1:e2
+		a1="hallo"
+		n2:a1=""
+		xmlns:n3="http://U.de">
+		<e3 xmlns="">
+			<n3:e4/>
+			<e5 xmlns:n2="http://V.de"/>
+		</e3>
+	</n1:e2>
+	<e6>
+		<e7 xmlns="http://U.de"a1="7">Hallo</e7>
+	</e6>
+</e1>

@@ -1,0 +1,163 @@
+<?xml version="1.1" encoding="UTF-8"?>
+
+<library xmlns:xsi='http://www.w3.org/2001/XMLSchema-instance'
+  xsi:noNamespaceSchemaLocation='library.xsd'>
+
+  <book>
+
+    <book>
+      <author-ref>G.Orwell</author-ref>
+      <title>1984</title>
+      <language>en</language>
+      <year>1949</year>
+    </book>
+
+    <author-ref>J.K.Rowling</author-ref>
+    <title>Harry Potter und der Stein der Weisen</title>
+    <language>de</language>
+    <year>1998</year>
+  </book>
+
+  <book>
+    <author-ref>J.K.Rowling</author-ref>
+    <title>Harry Potter und die Kammer des Schreckens</title>
+    <language>de</language>
+    <year>1999</year>
+  </book>
+
+  <book>
+    <author-ref>M.Twain</author-ref>
+    <title>Adventures of Huckleberry Finn</title>
+    <language>en</language>
+    <year>1884</year>
+  </book>
+
+  <book>
+    <author-ref>T.Pratchett</author-ref>
+    <title>The Colour of Magic</title>
+    <year>1983</year>
+  </book>
+
+  <book>
+    <author-ref>S.King</author-ref>
+    <title>It</title>
+    <language>en</language>
+    <year>1986</year>
+  </book>
+
+  <book>
+    <author-ref>T.Pratchett</author-ref>
+    <author-ref>N.Gaiman</author-ref>
+    <title>Good Omens: The Nice and Accurate Prophecies...</title>
+    <language>en</language>
+    <year>1990</year>
+  </book> 
+  
+  <book>
+    <author-ref>R.Munroe</author-ref>
+    <title>What If?</title>
+    <language>en</language>
+    <year>2014</year>
+  </book>
+
+  <book>
+    <author-ref>B.Bryson</author-ref>
+    <title>A Short History of Nearly Everything</title>
+    <language>en</language>
+    <year>2003</year>
+  </book>
+
+  <book>
+    <author-ref>B.Bryson</author-ref>
+    <title>A Really Short History of Nearly Everything</title>
+    <language>en</language>
+    <year>2009</year>
+  </book>
+
+  <book>
+    <author-ref>B.Bryson</author-ref>
+    <title>One Summer: America, 1927</title>
+    <language>en</language>
+    <year>2013</year>
+  </book>
+
+  <book>
+    <author-ref>A.Doerr</author-ref>
+    <title>All the Light We Cannot See</title>
+    <language>en</language>
+    <year>2014</year>
+  </book>
+
+  <book>
+    <author-ref>M.Tegmark</author-ref>
+    <title>Our Mathematical Universe: My Quest for the Ultimate Nature of Reality</title>
+    <language>en</language>
+    <year>2014</year>
+  </book>
+
+  <book>
+    <author-ref>N.Denne</author-ref>
+    <title>DB2-Theorie und Praxis</title>
+    <language>de</language>
+    <year>2004</year>
+  </book>
+
+  
+
+  <author id="G.Orwell">
+    <last-name>Orwell</last-name>
+    <first-name>George</first-name>
+  </author>  
+
+
+  <author id="J.K.Rowling">
+    <last-name>Rowling</last-name>
+    <first-name>Joanne K.</first-name>
+  </author>
+
+  <author id="M.Twain">
+    <last-name>Twain</last-name>
+    <first-name>Mark</first-name>
+  </author>  
+
+  <author id="T.Pratchett">
+    <last-name>Pratchett</last-name>
+    <first-name>Terry</first-name>
+  </author>
+
+  <author id="S.King">
+    <last-name>King</last-name>
+    <first-name>Stephen</first-name>
+  </author> 
+
+  <author id="N.Gaiman">
+    <last-name>Gaiman</last-name>
+    <first-name>Neil</first-name>
+  </author>  
+  
+  <author id="R.Munroe">
+    <last-name>Munroe</last-name>
+    <first-name>Randall</first-name>
+  </author>  
+
+  <author id="B.Bryson">
+    <last-name>Bryson</last-name>
+    <first-name>Bill</first-name>
+  </author>
+
+  <author id="A.Doerr">
+    <last-name>Doerr</last-name>
+    <first-name>Anthony</first-name>
+  </author>
+
+  <author id="M.Tegmark">
+    <last-name>Tegmark</last-name>
+    <first-name>Max</first-name>
+  </author>
+
+  <author id="N.Denne">
+    <last-name>Denne</last-name>
+    <first-name>Norbert</first-name>
+  </author>
+
+</library>

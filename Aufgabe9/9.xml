@@ -1,0 +1,37 @@
+<book>
+	<title>UnsereHaustiere</title>
+	<section>
+		<title>Fische</title>
+		<para>FischebrauchenimmerWasser</para>
+	</section>
+	<section>
+		<title>Säugetiere</title>
+		<section>
+			<title>Katzen</title>
+			<para>KatzenkratzenandenMöbeln.</para>
+			<section>
+				<title>DieKatze</title>
+				<para>Hier Text einfügen...Und Bilder!</para>
+			</section>
+			<section>
+				<title>DerKater</title>
+				<para>DerKateristderMannbeidenKatzen.</para>
+			</section>
+		</section>
+	</section>
+	<section>
+		<title>Saurier</title>
+		<section>
+			<title>Tyrannosaurusrex</title>
+			<para>DerT-rexisteinliebesHaustier.</para>
+		</section>
+		<section>
+			<title>Brontosaurus</title>
+			<para>DerBrontosauruspasstnichtindeineGarage.</para>
+		</section>
+	</section>
+	<section>
+		<title>Zusammenfassung</title>
+		<para>Daswardochschön,oder?</para>
+	</section>
+</book>

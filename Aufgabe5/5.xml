@@ -1,0 +1,5 @@
+<?xml version="1.0"encoding="UTF-8"?>
+<e1 xmlns="http://X.de"
+	xmlns:n1="http://Y.de">
+	<n1:e2 a="hello" n1:b="world">UniBonn</n1:e2>
+</e1>

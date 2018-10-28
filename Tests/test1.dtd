@@ -1,0 +1,7 @@
+<!-- test1.dtd -->
+<!ELEMENT uni (prof*, büro*)>
+<!ELEMENT prof (#PCDATA)>
+<!ATTLIST prof büro IDREF #IMPLIED>
+<!ELEMENT büro (#PCDATA)>
+<!ATTLIST büro gebäude (altbau|neubau) #REQUIRED>
+<!ATTLIST büro id ID #IMPLIED>

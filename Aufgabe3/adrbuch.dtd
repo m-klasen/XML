@@ -1,0 +1,16 @@
+<!ELEMENT adressbuch (adresse)>
+	<!ELEMENT adresse ((firma | person),strasse,plz ,(ort | state), (postcode | zipcode))>
+	<!ATTLIST adresse land CDATA #IMPLIED>
+		<!ELEMENT firma (firmenname,abteilung)>
+			<!ELEMENT firmenname (#PCDATA)>
+			<!ELEMENT abteilung (#PCDATA)>
+		<!ATTLIST person titel CDATA #IMPLIED>
+			<!ELEMENT vorname (#PCDATA)>
+			<!ELEMENT nachname (#PCDATA)>
+		<!ELEMENT strasse (#PCDATA)>
+		<!ELEMENT plz (#PCDATA)>
+		<!ELEMENT postcode (#PCDATA)>
+		<!ELEMENT zipcode (#PCDATA)>
+		<!ELEMENT ort (#PCDATA)>
+		<!ELEMENT state (#PCDATA)>
+

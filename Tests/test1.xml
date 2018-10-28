@@ -1,0 +1,49 @@
+<!-- 1
+
+<!DOCTYPE uni SYSTEM "test1.dtd">
+<uni>
+<prof>Meier</prof>
+<büro id="a123" gebäude="altbau">123</büro>
+<prof>Müller</prof>
+</uni>
+-->
+
+<!-- 2
+<!DOCTYPE uni SYSTEM "test1.dtd">
+<uni>
+<prof>Müller</prof>
+<büro id="n007">007</büro>
+</uni>
+
+-->
+<!-- 3
+<!DOCTYPE uni SYSTEM "test1.dtd">
+<uni>
+<büro id="a123" gebäude="altbau">123</büro>
+<prof büro="a123">Meier</prof>
+<prof büro="a123">Schuhmacher</prof>
+</uni>
+-->
+<!-- 4
+<!DOCTYPE uni SYSTEM "test1.dtd">
+<uni>
+<prof>Meier</prof>
+<prof büro="n077">Schulz</prof>
+<büro id="a123" gebäude="altbau">123</büro>
+</uni>
+-->
+<!-- 5
+<!DOCTYPE uni SYSTEM "test1.dtd">
+<uni>
+<prof büro="a123">Meier</prof>
+<büro id="a123" gebäude="altbau">123</büro>
+</uni>
+-->
+
+
+<!DOCTYPE uni SYSTEM "test1.dtd">
+<uni>
+<prof büro="n007">Fischer</prof>
+<büro id="n007" gebäude="neubau">007 (links)</büro>
+<büro id="n007" gebäude="neubau">007 (rechts)</büro>
+</uni>

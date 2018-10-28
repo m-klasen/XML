@@ -1,0 +1,11 @@
+https://www.w3.org/TR/xpath-functions-31/#func-replace
+
+replace($e, ’[^ \p{Nd}\p{L}-]’, ’’)
+
+- replace() :damit wird die funktion aufgerufen
+- $e : ist der zu veränderne Wert
+- [^ \p{Nd}\p{L}-] wird durch ’’ (also einfach nur entfernt) ersetzt
+- \p{Nd} sind Dezimalzahlen
+- \p{L} sind einzelne Buchstaben
+
+=> die funktion durchsucht also den Text e drauf ob [^ \p{Nd}\p{L}-] darin vorkommt und löscht dieses dann aus dem Text.

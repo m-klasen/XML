@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?><html xmlns="http://www.w3.org/1999/xhtml">
+   <head>
+      <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" /><title>UnsereHaustiere</title></head>
+   <body>
+      <table>
+         <tr>
+            <td>Fische</td>1
+            <td>FischebrauchenimmerWasser</td>
+         </tr>
+         <tr>
+            <td>Säugetiere</td>2
+            <td></td>
+            <td>Katzen</td>
+            <td>KatzenkratzenandenMöbeln.</td>
+         </tr>
+         <tr>
+            <td>Saurier</td>6
+            <td></td>
+            <td>Tyrannosaurusrex</td>
+            <td>DerT-rexisteinliebesHaustier.</td>
+            <td>Brontosaurus</td>
+            <td>DerBrontosauruspasstnichtindeineGarage.</td>
+         </tr>
+         <tr>
+            <td>Zusammenfassung</td>9
+            <td>Daswardochschön,oder?</td>
+         </tr>
+      </table>
+   </body>
+</html>
